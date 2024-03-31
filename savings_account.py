@@ -33,5 +33,3 @@ def create_savings_account(balance, interest_rate, months):
     # Return the updated balance and interest earned.
     return  updated_balance, interest_earned # ADD YOUR CODE HERE
 
-balance, interest_earned = create_savings_account(200000, 2.4, 12)
-print(f"Updated Balance: {balance}, Interest Earned: {interest_earned}")
